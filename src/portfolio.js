@@ -172,7 +172,7 @@ const workExperiences = {
         "Head of Master in Videogame",
         "Prepared and delivered lessons for both Master programs",
         "Defined course curriculum and learning objectives",
-        "Managed final thesis projects as project manager"
+        "Delivered final thesis for each master as project manager"
       ]
     },
     {
@@ -182,13 +182,6 @@ const workExperiences = {
       date: "Summer 2023 - Summer 2024",
       desc: "Led several Summer Camps, week-long learning programs for young students starting from zero, introducing them to coding and digital creativity in an engaging and accessible way."
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -197,7 +190,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -207,39 +200,39 @@ const bigProjects = {
   subtitle: "SOME BIG THINGS I HELPED CREATE AND DELIVER",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/ScilaDragoDiamante.png"),
+      projectName: "Scila e Il Drago Diamante",
+      projectDesc: "PC Game available on Steam for Free",
+      footerLink: [
+        {
+          name: "Steam Page",
+          url: "https://store.steampowered.com/app/3809460/Scila_e_il_Drago_Diamante/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/BiennaleArchitetturaVenezia.png"),
       projectName: "Venetiel MML",
-      projectDesc: "Live at Biennale Architettura 2023, Venice",
+      projectDesc: "Exhibited at Biennale Architettura 2023, Venice",
       footerLink: [
         {
           name: "Learn More",
-          url: "http://saayahealth.com/"
+          url: "https://www.linkedin.com/posts/pedro-rojo-621962186_although-its-a-year-late-i-am-thrilled-activity-7221158516147818499-wWaK?utm_source=share&utm_medium=member_desktop&rcm=ACoAACvsgvkBhjek4t72bEkxynCftphdE8AAptQ"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Coteire x Arcadia Earth",
-      projectDesc: "Live AI installations at COTERIE NewYork",
+      image: require("./assets/images/CoterieLogo.png"),
+      projectName: "COTERIE x Arcadia Earth",
+      projectDesc: "Live AI installations at Javits Center, NewYork",
       footerLink: [
         {
-          name: "About The Event",
-          url: "http://nextu.se/"
+          name: "COTERIE post",
+          url: "https://www.instagram.com/reel/C3p_oIfrG60/?igsh=ODJibXE2d2sycjNm"
         }
       ]
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Scila e Il Drago Diamante",
-      projectDesc: "Videogame available on Steam for Free",
-      footerLink: [
-        {
-          name: "Steam Store",
-          url: "http://nextu.se/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -250,57 +243,22 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications "),
   subtitle:
-    "Not a fan of this kind of things, but just in case...",
+    "I'm not a fan of 'Certificates', but just in case...",
 
   achievementsCards: [
     {
       title: "Unreal Authorized Instructor",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Belonging to an exclusive group of Unreal Authorized Instructors recognized by Epic",
+      image: require("./assets/images/UAIbadge.png"),
+      imageAlt: "Unreal UAI Badge",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://credential.unrealengine.com/8d91c172-faef-46ec-9913-12e2bf8096f4#acc.cTH1VFjb"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -308,23 +266,29 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Yapping",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "With Love for Developing cool stuff, I'm always excited to talk about tech and carreer journeys.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
+  blogs: [  
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.youtube.com/watch?v=ABHh8etyUPw&t=327s",
+      title: "Leaving Epic to Go Indie – Vittorio Durin's Journey",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "How do you find your path, become a senior, or even make a game as a solo dev? We discuss it all with Vittorio Durin."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+      url: "https://www.youtube.com/watch?v=2TJ3fB7dIMI&t=923s",
+      title: "Can a 10.000$ Mac Studio Handle This?",
+      description:  
+        "Together with Jaki Dale, we pushed Apple’s M3 Ultra to its limits. The results might surprise you!."
+    },
+    {
+      url: "https://www.youtube.com/watch?v=mwnwVoB6SB0&t=155s",
+      title: "A Casual Chat with my ex-student Lorenzo Vichi",
+      description:  
+        "In this 20-minute chat we share thoughts on video games, AI, math, and much more. Just standard yapping, but on camera."
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -345,7 +309,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -358,7 +322,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -382,7 +346,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
