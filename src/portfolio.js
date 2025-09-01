@@ -26,7 +26,7 @@ const greeting = {
     "I'm a passionate Game Developer 🚀 with experience building Desktop, Mobile, and VR apps using Unity, Unreal, and other exciting tools and frameworks. I also teach and coordinate courses in game development, helping students bring their own ideas to life."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1yHiBi8hzX0YdW80YAz_TCLNH15SI6mi0/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -121,8 +121,8 @@ const educationInfo = {
       duration: "September 2022- March 2023",
       desc: "Focused on game development, AR/VR, AI, and web technologies.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "8 hours/day, 5 days a week, for 6 months",
+        "Initial period focused on theory, followed by a balanced mix of theory and practice"
       ]
     },
     {
@@ -131,7 +131,10 @@ const educationInfo = {
       subHeader: "Program focused on researching and developing emerging technologies",
       duration: "March 2023 - September 2023",
       desc: "Deep-dived on advanced projects with MetaHumans, AR/VR experiences, AI powered Installations.",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: [
+        "8 hours/day, 5 days a week, for 6 months",
+        "In-depth exploration in personal areas of interest",
+        "Occasional collaborations with real clients and local companies."]
     }
   ]
 };
@@ -331,7 +334,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -349,7 +352,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
