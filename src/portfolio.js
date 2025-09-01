@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Rojo Pedro",
+  title: "Hi all, I'm Pedro",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm a passionate Game Developer 🚀 with experience building Desktop, Mobile, and VR apps using Unity, Unreal, and other exciting tools and frameworks. I also teach and coordinate courses in game development, helping students bring their own ideas to life."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/RojoPedro",
+  linkedin: "https://www.linkedin.com/in/pedro-rojo-621962186/",
+  gmail: "bkpedroxrojo@gmail.com",
+  instagram: "https://www.instagram.com/ciaomichiamopedro/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +46,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "YOUNG GAME DEV WHO WANTS TO EXPLORE EVERY SINGLE TECH AVAILABLE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Games / VR Experiences for your target platforms"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Constantly studying the latest Tools to stay efficient and maximize results"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Great predisposition for teamwork and cross-discipline collaboration"
     )
   ],
 
@@ -73,49 +70,41 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
+      skillName: "Javascript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "unity",
+      fontAwesomeClassname: "fab fa-unity"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Unreal",
+      fontAwesomeClassname: "fas fa-cube"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Steam",
+      fontAwesomeClassname: "fab fa-steam"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Github",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "mobile",
+      fontAwesomeClassname: "fas fa-mobile"
+    },
+    {
+      skillName: "Arduino",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,22 +115,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "BigWave",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Master in Coding",
+      duration: "September 2022- March 2023",
+      desc: "Focused on game development, AR/VR, AI, and web technologies.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "BigRock R&D",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      duration: "March 2023 - September 2023",
+      desc: "Deep-dived on advanced projects with MetaHumans, AR/VR experiences, AI powered Installations.",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -153,16 +142,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Unity",
+      progressPercentage: "92%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
+      Stack: "Unreal Engine", //Insert stack or technology you have experience in
+      progressPercentage: "89%" //Insert relative proficiency in percentage
+    },  
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "94%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,22 +163,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Teacher and Developer",
+      company: "Bigrock",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "September 2023 – Today",
+      desc: "Teaching and coordinating the Master in Coding and the Master in Videogame",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Head of Master in Videogame",
+        "Prepared and delivered lessons for both Master programs",
+        "Defined course curriculum and learning objectives",
+        "Managed final thesis projects as project manager"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Teacher",
+      company: "H-Farm",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Summer 2023 - Summer 2024",
+      desc: "Led several Summer Camps, week-long learning programs for young students starting from zero, introducing them to coding and digital creativity in an engaging and accessible way."
     },
     {
       role: "Software Engineer Intern",
@@ -212,16 +203,16 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME BIG THINGS I HELPED CREATE AND DELIVER",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Venetiel MML",
+      projectDesc: "Live at Biennale Architettura 2023, Venice",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Learn More",
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
@@ -229,11 +220,22 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Coteire x Arcadia Earth",
+      projectDesc: "Live AI installations at COTERIE NewYork",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "About The Event",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Scila e Il Drago Diamante",
+      projectDesc: "Videogame available on Steam for Free",
+      footerLink: [
+        {
+          name: "Steam Store",
           url: "http://nextu.se/"
         }
       ]
@@ -246,13 +248,13 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements And Certifications "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Not a fan of this kind of things, but just in case...",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Unreal Authorized Instructor",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
@@ -349,8 +351,8 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  title: emoji("Yapping 🎙️"),
+  subtitle: "ALWAYS EXCITED TO TALK ABOUT TECH AND CARRRER JOURNEYS",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -372,8 +374,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+39-3429580745",
+  email_address: "bkpedroxrojo@gmail.com"
 };
 
 // Twitter Section
