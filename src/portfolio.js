@@ -116,7 +116,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "BigWave",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/BigwaveLogo.jpg"),
       subHeader: "Master in Coding",
       duration: "September 2022- March 2023",
       desc: "Focused on game development, AR/VR, AI, and web technologies.",
@@ -127,8 +127,8 @@ const educationInfo = {
     },
     {
       schoolName: "BigRock R&D",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      logo: require("./assets/images/RedLogo.jpg"),
+      subHeader: "Program focused on researching and developing emerging technologies",
       duration: "March 2023 - September 2023",
       desc: "Deep-dived on advanced projects with MetaHumans, AR/VR experiences, AI powered Installations.",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
@@ -165,7 +165,7 @@ const workExperiences = {
     {
       role: "Teacher and Developer",
       company: "Bigrock",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/BigrockLogo.png"),
       date: "September 2023 – Today",
       desc: "Teaching and coordinating the Master in Coding and the Master in Videogame",
       descBullets: [
@@ -178,7 +178,7 @@ const workExperiences = {
     {
       role: "Teacher",
       company: "H-Farm",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/HfarmLogo.jpeg"),
       date: "Summer 2023 - Summer 2024",
       desc: "Led several Summer Camps, week-long learning programs for young students starting from zero, introducing them to coding and digital creativity in an engaging and accessible way."
     },
