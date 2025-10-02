@@ -25,8 +25,8 @@ const greeting = {
   subTitle: emoji(
     "I'm a passionate Game Developer 🚀 with experience building Desktop, Mobile, and VR apps using Unity, Unreal, and other exciting tools and frameworks. I also teach and coordinate courses in game development, helping students bring their own ideas to life."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1yHiBi8hzX0YdW80YAz_TCLNH15SI6mi0/view?usp=sharing", // Set to empty to hide the button
+  resumeLink:"",//empty to hide button
+    // "https://drive.google.com/file/d/1yHiBi8hzX0YdW80YAz_TCLNH15SI6mi0/view?usp=sharing", // Drive link
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,12 +48,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "YOUNG GAME DEV WHO WANTS TO EXPLORE EVERY SINGLE TECH AVAILABLE",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Games / VR Experiences for your target platforms"
-    ),
+    emoji("⚡ Develop highly interactive Games / VR Experiences for your target platforms"),
     emoji("⚡ Constantly studying the latest Tools to stay efficient and maximize results"),
-    emoji(
-      "⚡ Great predisposition for teamwork and cross-discipline collaboration"
+    emoji("⚡ Great predisposition for teamwork and cross-discipline collaboration"
     )
   ],
 
@@ -145,11 +142,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Unity",
+      Stack: "Unity / Unreal Engnie",
       progressPercentage: "92%"
     },
     {
-      Stack: "Unreal Engine", //Insert stack or technology you have experience in
+      Stack: "Math", //Insert stack or technology you have experience in
       progressPercentage: "89%" //Insert relative proficiency in percentage
     },  
     {
@@ -166,7 +163,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Teacher and Developer",
+      role: "Teacher & Developer",
       company: "Bigrock",
       companylogo: require("./assets/images/BigrockLogo.png"),
       date: "September 2023 – Today",
@@ -179,7 +176,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Teacher",
+      role: "Teacher & Developer",
       company: "H-Farm",
       companylogo: require("./assets/images/HfarmLogo.jpeg"),
       date: "Summer 2023 - Summer 2024",
