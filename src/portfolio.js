@@ -23,7 +23,7 @@ const greeting = {
   username: "Rojo Pedro",
   title: "Hi all, I'm Pedro",
   subTitle: emoji(
-    "I'm a passionate Game Developer 🚀 with experience building Desktop, Mobile, and VR apps using Unity, Unreal, and other exciting tools and frameworks. I also teach and coordinate courses in game development, helping students bring their own ideas to life."
+    "I am a Technical Developer and Instructor 💻, highly proficient in logical programming and system analysis honed through complex software development (Unity, Unreal, VR). I am focused on leveraging these analytical skills to excel in data analysis and drive data-informed decisions."
   ),
   resumeLink:"",//empty to hide button
     // "https://drive.google.com/file/d/1yHiBi8hzX0YdW80YAz_TCLNH15SI6mi0/view?usp=sharing", // Drive link
@@ -46,9 +46,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "YOUNG GAME DEV WHO WANTS TO EXPLORE EVERY SINGLE TECH AVAILABLE",
+  subTitle: "YOUNG PROBLEM SOLVER WITH A PASSION FOR DATA-DRIVEN INSIGHTS",
   skills: [
     emoji("⚡ Develop highly interactive Games / VR Experiences for your target platforms"),
+    emoji("⚡ Building modern, high-performance Web Applications with React and cutting-edge ecosystems"),
     emoji("⚡ Constantly studying the latest Tools to stay efficient and maximize results"),
     emoji("⚡ Great predisposition for teamwork and cross-discipline collaboration"
     )
@@ -142,11 +143,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Unity / Unreal Engnie",
+      Stack: "Unreal Engine",
       progressPercentage: "92%"
     },
     {
-      Stack: "Math", //Insert stack or technology you have experience in
+      Stack: "Unity Engine", //Insert stack or technology you have experience in
       progressPercentage: "89%" //Insert relative proficiency in percentage
     },  
     {
@@ -230,6 +231,28 @@ const bigProjects = {
         {
           name: "COTERIE post",
           url: "https://www.instagram.com/reel/C3p_oIfrG60/?igsh=ODJibXE2d2sycjNm"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/chiesadimeolo.png"),
+      projectName: "Chiesa di Meolo",
+      projectDesc: "Landing page for the church of Meolo, Italy",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://chiesadimeolo.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sandyimage.jpg"),
+      projectName: "Sandy",
+      projectDesc: "PC Game available on Steam for Free",
+      footerLink: [
+        {
+          name: "Steam Page",
+          url: "https://store.steampowered.com/app/4261550/Sandy/"
         }
       ]
     },
