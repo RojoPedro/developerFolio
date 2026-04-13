@@ -256,6 +256,17 @@ const bigProjects = {
         }
       ]
     },
+    {
+      image: require("./assets/images/grandeschermopage.jpg"),
+      projectName: "Grandeschermo",
+      projectDesc: "Free totally legal streaming platform",
+      footerLink: [
+        {
+          name: "Watch a Movie",
+          url: "https://grandeschermo.vercel.app"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
